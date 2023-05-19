@@ -23,7 +23,7 @@ const About = () => {
           </p>
           
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4">
+        <div className="w-full h-auto m-auto rounded-xl flex items-center justify-center p-4">
             <Image src={AboutImg}
             className="rounded-lg"
               alt="/"
