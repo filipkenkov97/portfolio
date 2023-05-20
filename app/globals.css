@@ -4,15 +4,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap");
-html {
-  scroll-behavior: smooth;
-  font-family: "Raleway", sans-serif;
-}
-
 @layer base {
   body {
     @apply bg-gray-800 text-[#1f2937] tracking-wide;
   }
+  html {
+    @apply scroll-smooth
+  }
+  
 
   h1,
   h2,

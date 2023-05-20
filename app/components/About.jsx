@@ -1,10 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 import AboutImg from '../../public/static/profile.jpg'
 const About = () => {
   return (
-    <div id="about" className="w-full items-center p-2 md:h-screen">
+    <div id="about" className="w-full items-center p-2 md:h-full">
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
       <div className="col-span-2">
           <p className="text-2xl font-bold text-blue-800 py-2">About</p>
@@ -25,7 +24,7 @@ const About = () => {
         </div>
         <div className="w-full h-auto m-auto rounded-xl flex items-center justify-center p-4">
             <Image src={AboutImg}
-            className="rounded-lg"
+            className="rounded-lg md:m-auto"
               alt="/"
             />
           </div>

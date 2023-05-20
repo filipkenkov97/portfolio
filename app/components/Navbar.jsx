@@ -5,7 +5,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100] bg-gray-900">
+    <div id="navigation" className="fixed w-full h-20 shadow-xl z-[100] bg-gray-900">
       <div className="flex justify-between items-center w-full h-full">
         <Avatar
           src="https://media.licdn.com/dms/image/D4E03AQEbR4odZx3qWA/profile-displayphoto-shrink_800_800/0/1682681590515?e=1689811200&v=beta&t=QRH5vdKj5uZ1heMjyb8ZPiYadQmGtMhbksDk4MUQ1tA"
@@ -15,16 +15,16 @@ const Navbar = () => {
           width={80}
         />
         <div className="uppercase flex flex-1 font-mono text-blue-600 font-bold">Filip Kenkov</div>
-        <div className="">
-          <ul className="md:flex mx-4 font-mono text-blue-600 font-bold text-l">
-            <Link href="/">
-              <li className="uppercase ml-8 hover:border-b ">Home</li>
+        <div>
+          <ul className="mx-4 font-mono text-blue-600 font-bold text-l md:flex ">
+            <Link href="/#home">
+              <li className="uppercase ml-8 hover:scale-110 ease-out duration-100">Home</li>
             </Link>
-            <Link href="/about">
-              <li className="uppercase ml-8 hover:border-b">About</li>
+            <Link href="/#about">
+              <li className="uppercase ml-8 hover:scale-110 ease-in duration-100">About</li>
             </Link>
-            <Link href="/contact">
-              <li className="uppercase ml-8 hover:border-b">Contact</li>
+            <Link href="mailto:filipkenkov@gmail.com" title="Send me an e-mail">
+              <li className="uppercase ml-8 hover:scale-110 ease-in duration-100">Contact</li>
             </Link>
           </ul>
         </div>
