@@ -11,8 +11,8 @@ import JAVASCRIPT from "../../public/static/javascript.png"
 const About = () => {
   return (
     <div id="skills" className="w-screen h-screen items-center">
-      <div className="max-w-[1240px] m-auto md:grid md:py-40 sm:py-72">
-        <div className="md:py-40 sm:py-72">
+      <div className="my-auto max-w-[1240px] m-auto md:grid">
+        <div className="py-96 md:py-40">
           <p className="text-2xl font-bold text-blue-800 uppercase py-4 sm:mx-2">Skills</p>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="p-4 shadow-2xl rounded-xl hover:scale-105 ease-in duration-300 hover:cursor-pointer">
