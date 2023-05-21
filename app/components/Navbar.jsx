@@ -1,8 +1,11 @@
-"use client"
-import React from "react";
+"use client";
+import React, { JSXElementConstructor } from "react";
 import { Avatar } from "@mui/material";
 import Link from "next/link";
-
+const nav = (element) => {
+  const el = document.getElementById(element).scrollIntoView();
+  return el;
+};
 const Navbar = () => {
   return (
     <div id="navigation" className="fixed w-full h-20 shadow-2xl bg-gray-900">
@@ -14,18 +17,20 @@ const Navbar = () => {
           height={80}
           width={80}
         />
-        <div className="uppercase flex flex-1 font-mono text-blue-600 font-bold">Filip Kenkov</div>
+        <div className="uppercase flex flex-1 font-mono text-blue-600 font-bold">
+          Filip Kenkov
+        </div>
         <div>
           <ul className="mx-4 font-mono text-blue-600 font-bold text-l md:flex">
-            <Link href="/#home">
-              <li className="uppercase ml-8 hover:scale-110 ease-out duration-100">Home</li>
-            </Link>
-            <Link href="/#about">
-              <li className="uppercase ml-8 hover:scale-110 ease-in duration-100">About</li>
-            </Link>
-            <Link href="#skills" title="Send me an e-mail">
-              <li className="uppercase ml-8 hover:scale-110 ease-in duration-100">Skills</li>
-            </Link>
+            <li className="uppercase ml-8 hover:scale-110 ease-out duration-100" onClick={()=> nav('home')} alt="Home">
+              Home
+            </li>
+            <li className="uppercase ml-8 hover:scale-110 ease-in duration-100" onClick={()=> nav('about')} alt="About">
+              About
+            </li>
+            <li className="uppercase ml-8 hover:scale-110 ease-in duration-100" onClick={()=> nav('skills')} alt="Skills">
+              Skills
+            </li>
           </ul>
         </div>
       </div>
