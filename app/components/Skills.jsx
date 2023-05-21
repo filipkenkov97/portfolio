@@ -10,7 +10,7 @@ import NEXTJS from "../../public/static/nextjs.png"
 import JAVASCRIPT from "../../public/static/javascript.png"
 const About = () => {
   return (
-    <div id="skills" className="w-full h-screen items-center md:h-full ">
+    <div id="skills" className="w-fullitems-center md:h-full">
       <div className="max-w-[1240px] m-auto md:grid">
         <div className="">
           <p className="text-2xl font-bold text-blue-800 uppercase py-4">Skills</p>
