@@ -1,11 +1,10 @@
 "use client"; 
-import { FaGithub, FaLinkedin, } from "react-icons/fa"
-import React from "react";
 import Link from "next/link";
+import { FaGithub, FaLinkedin, } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 function About() {
   return (
-    <div id="home" className="h-screen w-full text-center">
+    <div id="home" className="h-full w-full text-center">
       <div className="max-w-[1024px] w-full h-screen mx-auto flex justify-center items-center">
         <div className="mx-auto">
             <h1 className="text-white">Hi, I am <span className="text-blue-600">Filip</span></h1>

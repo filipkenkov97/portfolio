@@ -1,7 +1,7 @@
 "use client"
+import React from "react";
 import { Avatar } from "@mui/material";
 import Link from "next/link";
-import React from "react";
 
 const Navbar = () => {
   return (
@@ -23,8 +23,8 @@ const Navbar = () => {
             <Link href="/#about">
               <li className="uppercase ml-8 hover:scale-110 ease-in duration-100">About</li>
             </Link>
-            <Link href="mailto:filipkenkov@gmail.com" title="Send me an e-mail">
-              <li className="uppercase ml-8 hover:scale-110 ease-in duration-100">Contact</li>
+            <Link href="#skills" title="Send me an e-mail">
+              <li className="uppercase ml-8 hover:scale-110 ease-in duration-100">Skills</li>
             </Link>
           </ul>
         </div>

@@ -4,10 +4,10 @@ import AboutImg from '../../public/static/profile.jpg'
 
 const About = () => {
   return (
-    <div id="about" className="w-full items-center p-2 md:h-full">
+    <div id="about" className="w-full h-screen items-center md:h-full py-72">
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3'>
       <div className="col-span-2">
-          <p className="text-2xl font-bold text-blue-800">About</p>
+          <p className="text-2xl font-bold text-blue-800 uppercase">About</p>
           <h2 className="text-white py-2">Who am I?</h2>
           <p className="text-white font-mono">
             A gradute on Faculty of Computer Science and Engineering with
