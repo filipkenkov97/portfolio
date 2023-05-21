@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap");
 @layer base {
   body {
-    @apply bg-gray-900 text-[#1f2937] tracking-wide;
+    @apply bg-gray-900 text-[#1f2937] tracking-wide ;
   }
   html {
     @apply scroll-smooth
