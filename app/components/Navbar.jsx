@@ -1,7 +1,6 @@
 "use client";
-import React, { JSXElementConstructor } from "react";
+import React from "react";
 import { Avatar } from "@mui/material";
-import Link from "next/link";
 const nav = (element) => {
   const el = document.getElementById(element).scrollIntoView();
   return el;
