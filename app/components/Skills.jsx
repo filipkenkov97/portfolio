@@ -61,7 +61,7 @@ const About = () => {
                   <Image src={JAVASCRIPT} alt="react-native" width="64px" height='64px'/>
                 </div>
                <div className="flex flex-row justify-center items-center p-2">
-                <p className="text-xl text-blue-800 font-bold">TYPESCRIPT</p>
+                <p className="text-xl text-blue-800 font-bold">JAVASCRIPT</p>
                </div>
               </div>
             </div>
