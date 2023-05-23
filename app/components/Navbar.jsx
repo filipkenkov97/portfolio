@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="uppercase flex flex-1 font-mono text-blue-600 font-bold">
           Filip Kenkov
         </div>
-        <div>
+        <div className="hidden md:flex">
           <ul className="mx-4 font-mono text-blue-600 font-bold text-l md:flex">
             <li className="uppercase ml-8 hover:scale-110 ease-out duration-100" onClick={()=> nav('home')} alt="Home">
               Home
