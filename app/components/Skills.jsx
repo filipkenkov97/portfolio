@@ -20,8 +20,8 @@ const About = () => {
                 <div className="m-auto">
                   <Image src={HTML} alt="HTML5" width="64px" height='64px'/>
                 </div>
-               <div className="flex flex-row justify-center items-center p-2">
-                <p className="text-xl text-blue-800 font-bold">HTML5</p>
+               <div className="flex flex-row justify-center items-center">
+                <p className="text-lg md:text-xl text-blue-800 font-bold">HTML5</p>
                </div>
               </div>
             </div>
@@ -30,8 +30,8 @@ const About = () => {
                 <div className="m-auto">
                   <Image src={CSS} alt="css" width="64px" height='64px'/>
                 </div>
-               <div className="flex flex-row justify-center items-center p-2">
-                <p className="text-xl text-blue-800 font-bold">CSS3</p>
+               <div className="flex flex-row justify-center items-center">
+                <p className="text-l md:text-xl text-blue-800 font-bold">CSS3</p>
                </div>
               </div>
             </div>
@@ -41,7 +41,7 @@ const About = () => {
                   <Image src={TAILWIND} alt="tailwind" width="64px" height='64px'/>
                 </div>
                <div className="flex flex-row justify-center items-center p-2">
-                <p className="text-xl text-blue-800 font-bold">TAILWIND</p>
+                <p className="text-l md:text-xl text-blue-800 font-bold">TAILWIND</p>
                </div>
               </div>
             </div>
@@ -50,8 +50,8 @@ const About = () => {
                 <div className="m-auto">
                   <Image src={REACT} alt="react" width="64px" height='64px'/>
                 </div>
-               <div className="flex flex-row justify-center items-center p-2">
-                <p className="text-xl text-blue-800 font-bold">REACT/ REACT NATIVE</p>
+               <div className="flex flex-row justify-center items-center">
+                <p className="text-l md:text-xl text-blue-800 font-bold p-4">REACT/ REACT NATIVE</p>
                </div>
               </div>
             </div>
@@ -61,7 +61,7 @@ const About = () => {
                   <Image src={JAVASCRIPT} alt="react-native" width="64px" height='64px'/>
                 </div>
                <div className="flex flex-row justify-center items-center p-2">
-                <p className="text-xl text-blue-800 font-bold">JAVASCRIPT</p>
+                <p className="text-l md:text-xl text-blue-800 font-bold">JAVASCRIPT</p>
                </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ const About = () => {
                   <Image src={TYPESCRIPT} alt="react-native" width="64px" height='64px'/>
                 </div>
                <div className="flex flex-row justify-center items-center p-2">
-                <p className="text-xl text-blue-800 font-bold">TYPESCRIPT</p>
+                <p className="text-l md:text-xl text-blue-800 font-bold">TYPESCRIPT</p>
                </div>
               </div>
             </div>
@@ -81,7 +81,7 @@ const About = () => {
                   <Image src={NEXTJS} alt="react-native" width="64px" height='64px'/>
                 </div>
                <div className="flex flex-row justify-center items-center p-2">
-                <p className="text-xl text-blue-800 font-bold">NEXT.JS</p>
+                <p className="text-l md:text-xl text-blue-800 font-bold">NEXT.JS</p>
                </div>
               </div>
             </div>
@@ -91,7 +91,7 @@ const About = () => {
                   <Image src={AWS} alt="react-native" width="64px" height='64px'/>
                 </div>
                <div className="flex flex-row justify-center items-center p-2">
-                <p className="text-xl text-blue-800 font-bold">AWS</p>
+                <p className="text-l md:text-xl text-blue-800 font-bold">AWS</p>
                </div>
               </div>
             </div>
