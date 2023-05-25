@@ -4,9 +4,9 @@ import AboutImg from '../../public/static/profile.jpg'
 
 const About = () => {
   return (
-    <div id="about" className="w-full h-screen items-center md:h-full py-72">
-      <div className='max-w-[1240px] m-auto md:grid grid-cols-3'>
-      <div className="col-span-2">
+    <div id="about" className="w-full h-screen items-center md:h-full py-72 p-6">
+      <div className='max-w-[1240px] m-auto md:grid grid-cols-3 items-center'>
+      <div className="flex-col col-span-2 text-center md:text-start">
           <p className="text-2xl font-bold text-blue-800 uppercase">About</p>
           <h2 className="text-white py-2">Who am I?</h2>
           <p className="text-white font-mono">
