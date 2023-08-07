@@ -1,5 +1,5 @@
 import React from "react";
-import skills  from "../components/reusable/skillsData.json";
+import skills from "../components/reusable/skillsData.json";
 import Skills from "../components/reusable/skillsContainer";
 const About = () => {
   return (
@@ -12,12 +12,7 @@ const About = () => {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 py-4">
             {skills.map((skill) => {
               return (
-                <div
-                  className="p-4 shadow-2xl rounded-xl hover:scale-105 ease-in duration-300 hover:cursor-pointer"
-                  key={skill.title}
-                >
-                  <Skills title={skill.title} img={skill.img} />
-                </div>
+                <Skills key={skill.title} title={skill.title} img={skill.img} />
               );
             })}
           </div>
