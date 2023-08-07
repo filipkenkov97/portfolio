@@ -10,7 +10,7 @@ const Navbar = () => {
     <div id="navigation" className="fixed w-full h-20 shadow-2xl bg-gray-900">
       <div className="flex justify-between items-center w-full h-full">
         <Avatar
-          src="https://media.licdn.com/dms/image/D4E03AQEbR4odZx3qWA/profile-displayphoto-shrink_800_800/0/1682681590515?e=1689811200&v=beta&t=QRH5vdKj5uZ1heMjyb8ZPiYadQmGtMhbksDk4MUQ1tA"
+          src="/static/profile.jpg"
           alt="/"
           className="mx-2"
           height={80}

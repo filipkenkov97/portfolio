@@ -1,0 +1,36 @@
+{
+  "skills": [
+    {
+      "title": "HTML5",
+      "img": "/static/html5.png"
+    },
+    {
+      "title": "CSS3",
+      "img": "/static/css.png"
+    },
+    {
+      "title": "TAILWIND",
+      "img": "/static/tailwind.png"
+    },
+    {
+      "title": "REACT/ REACT NATIVE",
+      "img": "/static/react.png"
+    },
+    {
+      "title": "TYPESCRIPT",
+      "img": "/static/typescript.png"
+    },
+    {
+      "title": "JAVASCRIPT",
+      "img": "/static/javascript.png"
+    },
+    {
+      "title": "NEXT.JS",
+      "img": "/static/nextjs.png"
+    },
+    {
+      "title": "AWS",
+      "img": "/static/aws.png"
+    }
+  ]
+}
