@@ -1,6 +1,5 @@
 import React from "react";
-import Image from "next/image";
-import { skills } from "../components/reusable/skillsData.json";
+import skills  from "../components/reusable/skillsData.json";
 import Skills from "../components/reusable/skillsContainer";
 const About = () => {
   return (

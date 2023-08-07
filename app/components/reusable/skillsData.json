@@ -1,5 +1,4 @@
-{
-  "skills": [
+ [
     {
       "title": "HTML5",
       "img": "/static/html5.png"
@@ -33,4 +32,3 @@
       "img": "/static/aws.png"
     }
   ]
-}
