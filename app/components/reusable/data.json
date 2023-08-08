@@ -1,33 +1,41 @@
  [
     {
+      "id": "1",
       "title": "HTML5",
       "img": "/static/html5.png"
     },
     {
+      "id": "2",
       "title": "CSS3",
       "img": "/static/css.png"
     },
     {
+      "id": "3",
       "title": "TAILWIND",
       "img": "/static/tailwind.png"
     },
     {
+      "id": "4",
       "title": "REACT/ REACT NATIVE",
       "img": "/static/react.png"
     },
     {
+      "id": "5",
       "title": "TYPESCRIPT",
       "img": "/static/typescript.png"
     },
     {
+      "id": "6",
       "title": "JAVASCRIPT",
       "img": "/static/javascript.png"
     },
     {
+      "id": "7",
       "title": "NEXT.JS",
       "img": "/static/nextjs.png"
     },
     {
+      "id": "8",
       "title": "AWS",
       "img": "/static/aws.png"
     }

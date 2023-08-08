@@ -13,7 +13,7 @@ const Skills = () => {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 py-4">
             {data.map((skill) => {
               return (
-                <Skill key={skill.title} title={skill.title} img={skill.img} />
+                <Skill key={skill.id} title={skill.title} img={skill.img} />
               );
             })}
           </div>
