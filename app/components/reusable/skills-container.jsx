@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 const Skills = ({ title, img }) => {
+  
   return (
     <div
       id="skills-container"

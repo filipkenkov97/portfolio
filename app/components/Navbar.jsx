@@ -1,10 +1,12 @@
 "use client";
 import React from "react";
 import { Avatar } from "@mui/material";
+
 const nav = (element) => {
   const el = document.getElementById(element).scrollIntoView();
   return el;
 };
+
 const Navbar = () => {
   return (
     <div id="navigation" className="fixed w-full h-20 shadow-2xl bg-gray-900">

@@ -1,7 +1,8 @@
 import React from "react";
-import skills from "../components/reusable/skillsData.json";
-import Skills from "../components/reusable/skillsContainer";
-const About = () => {
+import data from "./reusable/data.json";
+import Skill from "./reusable/skills-container";
+
+const Skills = () => {
   return (
     <div id="skills" className="w-screen h-full items-center">
       <div className="my-auto max-w-[1240px] m-auto md:grid">
@@ -10,9 +11,9 @@ const About = () => {
             Skills
           </p>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 py-4">
-            {skills.map((skill) => {
+            {data.map((skill) => {
               return (
-                <Skills key={skill.title} title={skill.title} img={skill.img} />
+                <Skill key={skill.title} title={skill.title} img={skill.img} />
               );
             })}
           </div>
@@ -22,4 +23,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Skills;
