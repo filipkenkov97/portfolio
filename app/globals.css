@@ -6,10 +6,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap");
 @layer base {
   body {
-    @apply text-[#1f2937] tracking-wide ;
+    @apply text-[#1f2937] tracking-wide overflow-x-hidden  ;
   }
   html {
-    @apply scroll-smooth bg-[url('/static/stars.gif')]
+    @apply scroll-smooth bg-[url('/static/stars.gif')] 
   }
   
 

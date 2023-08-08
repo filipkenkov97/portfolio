@@ -3,7 +3,7 @@ import skills from "../components/reusable/skillsData.json";
 import Skills from "../components/reusable/skillsContainer";
 const About = () => {
   return (
-    <div id="skills" className="w-screen h-screen items-center">
+    <div id="skills" className="w-screen h-full items-center">
       <div className="my-auto max-w-[1240px] m-auto md:grid">
         <div className="py-96 my-96 md:py-40 md:my-1 text-center md:text-start">
           <p className="text-2xl font-bold text-blue-800 uppercase sm:mx-2 p-4 md:p-2">
