@@ -6,12 +6,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap");
 @layer base {
   body {
-    @apply text-[#1f2937] tracking-wide overflow-x-hidden ;
+    @apply text-[#1f2937] tracking-wide overflow-x-hidden;
   }
   html {
     @apply scroll-smooth bg-[url('/static/stars.gif')] bg-black 
   }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
   
+  ::-webkit-scrollbar-track {
+    background: black
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px
+  }
+
   h1,
   h2,
   h3,
