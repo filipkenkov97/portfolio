@@ -13,7 +13,7 @@ const About = () => {
           <p className="text-2xl font-bold text-blue-800 uppercase">About</p>
           <h2 className="text-white py-2">Who am I?</h2>
           <p className="text-white font-mono">
-            A gradute on Faculty of Computer Science and Engineering with
+            A gradute at Faculty of Computer Science and Engineering with
             passion for computers since early age.
             <br /> I am a Software Developer with demonstrated history of
             working in the IT industry.
