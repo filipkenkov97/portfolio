@@ -22,7 +22,7 @@ function About() {
               className="text-blue-600"
               wrapper="span"
               repeat={Infinity}
-              />Developer @ <span className="text-blue-600">Miracle Mill</span></h1>
+              />Developer @ <span className="text-blue-600">Spot-nik</span></h1>
             <p className="py-2 text-white max-w-[70%] m-auto">
             Graduate at Faculty of Computer Science and Engineering
             <br/>
