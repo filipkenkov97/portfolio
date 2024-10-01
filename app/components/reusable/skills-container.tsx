@@ -1,7 +1,10 @@
-import React from "react";
 import Image from "next/image";
+type SKillProps = {
+  title: string;
+  img: string;
+};
 
-const Skills = ({ title, img }) => {
+const Skills = ({ title, img }: SKillProps) => {
   
   return (
     <div

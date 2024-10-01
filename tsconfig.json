@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve", // Correct setting for Next.js with TypeScript
+    // other options...
+  }
+}
