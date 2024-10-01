@@ -10,6 +10,7 @@
   }
   html {
     @apply scroll-smooth bg-[url('/static/stars.gif')] bg-black 
+    
   }
 
   ::-webkit-scrollbar {

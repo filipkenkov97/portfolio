@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import { Avatar } from "@mui/material";
+import { Avatar, Button, Typography } from "@mui/material";
 
 const nav = (element) => {
-  const el = document.getElementById(element).scrollIntoView();
-  return el;
+  const el = document.getElementById(element);
+  el.scrollIntoView({ behavior: 'smooth' });
 };
 
 const Navbar = () => {
@@ -13,24 +13,45 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full">
         <Avatar
           src="/static/profile.jpg"
-          alt="/"
+          alt="Profile"
           className="mx-2"
           height={80}
           width={80}
         />
-        <div className="uppercase flex flex-1 font-mono text-blue-600 font-bold">
+        <Typography variant="h6" className="uppercase flex flex-1 font-mono text-blue-600 font-bold">
           Filip Kenkov
-        </div>
+        </Typography>
         <div className="hidden md:flex">
-          <ul className="mx-4 font-mono text-blue-600 font-bold text-l md:flex">
-            <li className="uppercase ml-8 hover:scale-110 ease-out duration-100" onClick={()=> nav('home')} alt="Home">
-              Home
+          <ul className="flex mx-4 font-mono text-blue-600 font-bold text-l">
+            <li className="ml-8">
+              <Button
+                onClick={() => nav('home')}
+                variant="text"
+                color="inherit"
+                className="uppercase hover:scale-110 ease-out duration-100"
+              >
+                Home
+              </Button>
             </li>
-            <li className="uppercase ml-8 hover:scale-110 ease-in duration-100" onClick={()=> nav('about')} alt="About">
-              About
+            <li className="ml-8">
+              <Button
+                onClick={() => nav('about')}
+                variant="text"
+                color="inherit"
+                className="uppercase hover:scale-110 ease-in duration-100"
+              >
+                About
+              </Button>
             </li>
-            <li className="uppercase ml-8 hover:scale-110 ease-in duration-100" onClick={()=> nav('skills')} alt="Skills">
-              Skills
+            <li className="ml-8">
+              <Button
+                onClick={() => nav('skills')}
+                variant="text"
+                color="inherit"
+                className="uppercase hover:scale-110 ease-in duration-100"
+              >
+                Skills
+              </Button>
             </li>
           </ul>
         </div>
